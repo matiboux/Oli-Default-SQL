@@ -1,7 +1,7 @@
 /*\
 |*|  ----------------------------------
 |*|  --- [  Oli default SQL file  ] ---
-|*|  --- [    version 17.02-01    ] ---
+|*|  --- [    version 17.02-02    ] ---
 |*|  ----------------------------------
 |*|  Built for Oli Beta 1.7.1
 |*|  
@@ -15,10 +15,8 @@
 |*|  
 |*|  --- --- ---
 |*|  
-|*|  Changelog for v17.02-01:
-|*|  - Updated file header
-|*|  - Added a summary
-|*|  - Added the SQL queries
+|*|  Changelog for v17.02-02:
+|*|  - Added constraints on secondaries account tables
 |*|  
 |*|  Stuff to do next: (Oli Beta 1.8.0)
 |*|  - Add the `accounts_login_limits` table
@@ -234,6 +232,9 @@ SET time_zone = "+00:00";
 	ALTER TABLE `accounts_infos`
 	  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
+	ALTER TABLE `accounts_infos`
+	  ADD CONSTRAINT `accounts_infos_ibfk_1` FOREIGN KEY (`username`) REFERENCES `accounts` (`username`) ON DELETE CASCADE ON UPDATE CASCADE;
+
 -- II. 3. Table `accounts_requests`
 
 	-- II. 3. A. Create the table
@@ -261,6 +262,9 @@ SET time_zone = "+00:00";
 
 	ALTER TABLE `accounts_requests`
 	  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+
+	ALTER TABLE `accounts_requests`
+	  ADD CONSTRAINT `accounts_requests_ibfk_1` FOREIGN KEY (`username`) REFERENCES `accounts` (`username`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- II. 4. Table `accounts_rights`
 
@@ -320,6 +324,9 @@ SET time_zone = "+00:00";
 
 	ALTER TABLE `accounts_sessions`
 	  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+	ALTER TABLE `accounts_sessions`
+	  ADD CONSTRAINT `accounts_sessions_ibfk_1` FOREIGN KEY (`username`) REFERENCES `accounts` (`username`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- *** *** *** --
 
