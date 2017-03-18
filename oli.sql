@@ -1,22 +1,21 @@
 /*\
 |*|  ----------------------------------
-|*|  --- [  Oli default SQL file  ] ---
-|*|  --- [    version 17.02-02    ] ---
+|*|  --- [  Oli Default SQL file  ] ---
+|*|  --- [   Revision 17.03-01    ] ---
 |*|  ----------------------------------
-|*|  Built for Oli Beta 1.7.1
+|*|  / Built for Oli Beta 1.7.1
 |*|  
 |*|  The default SQL file for Oli, an open source PHP Framework made by Matiboux.
-|*|  Created and developed by Mathieu Guérin – aka Matiboux.
+|*|  You can use this SQL template to setup a MySQL database with the framework.
+|*|  Created and developed by Matiboux (Mathieu Guérin).
 |*|  
-|*|  Oli default SQL file Github Gist: https://gist.github.com/matiboux/9a3019c7c67773e2fc6a61e4c71020a3/
+|*|  Oli Default SQL Github repository: https://github.com/OliFramework/Oli-Default-SQL/
 |*|  Oli Github repository: https://github.com/OliFramework/Oli/
-|*|  
-|*|  Use this SQL template if you want to use a MySQL database with the framework.
 |*|  
 |*|  --- --- ---
 |*|  
-|*|  Changelog for v17.02-02:
-|*|  - Added constraints on secondaries account tables
+|*|  Changelog for v17.03-01:
+|*|  - Created its own Repository!
 |*|  
 |*|  Stuff to do next: (Oli Beta 1.8.0)
 |*|  - Add the `accounts_login_limits` table
