@@ -1,3 +1,11 @@
+# Warning!
+
+THIS REPOSITORY IS OUTDATED.
+
+THE SQL FILE IS NOW DIRECTLY *HOSTED ON [**OLI'S REPOSITORY**](https://github.com/OliFramework/Oli)*
+
+---
+
 # Oli Default SQL File
 
 The **default SQL file** for [*Oli*](https://github.com/OliFramework/Oli), an open source PHP Framework.
