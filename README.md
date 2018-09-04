@@ -2,17 +2,17 @@
 
 THIS REPOSITORY IS OUTDATED.
 
-THE SQL FILE IS NOW DIRECTLY *HOSTED ON [**OLI'S REPOSITORY**](https://github.com/OliFramework/Oli)*
+THE SQL FILE IS NOW DIRECTLY *HOSTED ON [**OLI'S REPOSITORY**](https://github.com/matiboux/Oli)*
 
 ---
 
 # Oli Default SQL File
 
-The **default SQL file** for [*Oli*](https://github.com/OliFramework/Oli), an open source PHP Framework.
+The **default SQL file** for [*Oli*](https://github.com/matiboux/Oli), an open source PHP Framework.
 
 ### Start using it
 
-Download the [latest *login.php*](https://github.com/OliFramework/Oli-Login-Page/releases/latest) and import it in your database, then finish your Oli config.
+Download the [latest *login.php*](https://github.com/matiboux/Oli-Login-Page/releases/latest) and import it in your database, then finish your Oli config.
 
 ### License
 
