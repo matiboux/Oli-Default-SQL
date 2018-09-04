@@ -12,7 +12,7 @@ The **default SQL file** for [*Oli*](https://github.com/matiboux/Oli), an open s
 
 ### Start using it
 
-Download the [latest *login.php*](https://github.com/matiboux/Oli-Login-Page/releases/latest) and import it in your database, then finish your Oli config.
+Download the [latest *oli.sql*](https://github.com/matiboux/Oli-Default-SQL/releases/latest) and import it in your database, then finish your Oli config.
 
 ### License
 
